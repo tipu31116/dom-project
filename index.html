@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVIGOfQNHSoD2xbE+QkPxCAF1NEevoEH3S10sibVcOQVnN" crossorigin="anonymous">
+
+
+	<title>DOM BASIC</title>
+</head>
+<body>
+
+   <div class="container"><!--start---->
+   	<div class="row">  <!---row-->
+   		<div class="col s12"> <!---col-s12-->
+   			<div id="main" class="card"> <!---main and card-->
+   				<div class="card-content"><!---card-content-->
+   					<span class="card-title">Task List</span>
+   					<div class="row">
+   						<form id="task-form"><!---form start-->
+   							
+   						
+   						<div class="input-field col s12">
+   							<input type="text" name="task" id="task" >
+   							<label for="task">New Task</label>
+
+   							
+   						</div>
+   						
+   						
+   					</div>
+   					<input type="submit" value="Add Task" class="btn">
+   					</form><!---form end-->
+   					
+   				</div><!---card-content-->
+   				<div class="card-action"><!----card-action--->
+   					<h5 id="task-title" class="test">Tasks</h5>
+
+                    <div class="input-field col s12">
+   							<input type="text" name="filter" id="filter" >
+   							<label for="filter">Filter Tasks</label>
+
+   							
+   						</div>
+
+   					<ul class="collection"><!--collection-->
+   						
+   						
+   					</ul><!--collection end-->
+   					
+   					<a class="clear-tasks btn black" href="#">Clear Tasks</a>
+   				</div><!----card-action end--->
+   				
+
+   			</div><!---main and card end-->
+
+   			
+   		</div><!---col-s12 end-->
+   		
+   	</div> <!---row end-->
+   	
+   </div><!--start end---->
+   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ0si0Hgrsxu/8s717jcIzly3oi35EouyE" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="app.js"></script> -->
+   <!--  <script src="The Query Selecto.js"></script> -->
+  <!--  <script src="Get Elements By Class or Tag.js"></script> -->
+<!--   <script src=" query selector all.js"></script> -->
+<!-- <script src="Traversing the DOM.js"></script> -->
+<!--  <script src=" Creating Elements.js"></script> -->
+<!-- <script src=" Append Child.js"></script> -->
+<!-- <script src=" Remove Method.js"></script> -->
+<!-- <script src=" add Event Listener.js"></script> -->
+<!-- <script src="Mouse Event.js"></script> -->
+<!-- <script src="Keyboard Event.js"></script> -->
+<script src="project.js"></script>
+</body>
+</html>
